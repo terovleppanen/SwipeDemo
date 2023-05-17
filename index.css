@@ -183,5 +183,20 @@ p {
   cursor: pointer;
 }
 
+/* Add .with-icon to add arrow icon to button */
+.with-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.with-icon > {
+  transition: transform 0.25s ease;
+}
+
+.with-icon:hover > img {
+  transform: translateX(4px);
+}
+
 /* Class-elements ends*/
 /* ######################################################################## */
