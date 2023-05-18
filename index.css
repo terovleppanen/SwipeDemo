@@ -38,7 +38,7 @@
   --spacing-lg: 32px;
   --spacing-xl: 64px;
 
-  /* max width for content */
+  /* standard width for content */
   --standard-width: 1144px;
 }
 
@@ -134,6 +134,46 @@ p {
 
 /* Basic styles ends*/
 /* ######################################################################## */
+
+/* LAYOUT styles */
+/* Container to apply width to content sections */
+.section-container {
+  width: 100%;
+  max-width: var(--standard-width);
+}
+
+/* Class for two column layout throughout site */
+.two-column {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.two-column > .col-left {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 var(--spacing-md) 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-column > .col-right {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 0 0 var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Layout styles ends */
+
 /* Define class-elements used in site. */
 
 .subtitle,
@@ -156,6 +196,8 @@ p {
   color: var(--text-grey);
   letter-spacing: 0.25px;
 }
+
+/*  Button styles */
 
 .primary-button {
   font-family: var(--body-font);
