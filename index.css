@@ -174,6 +174,8 @@ p {
 
 main {
   margin: var(--spacing-xl) 0;
+
+  width: 100%;
 }
 
 /* Basic styles ends*/
@@ -319,6 +321,12 @@ main {
 }
 
 /* HERO SECTION */
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .button-container {
   display: flex;
   margin: var(--spacing-md) 0;
@@ -345,6 +353,12 @@ main {
 }
 
 /* PARTNERS SECTION */
+.partners-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .partners-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -362,6 +376,10 @@ main {
 /* UNIFIED PLATFORM SECTION */
 .unified-platform-section {
   padding: var(--spacing-xl) 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .unified-platform-section h2 {
@@ -379,6 +397,12 @@ main {
 }
 
 /* GRAPHIC GRID SECTION - Product graphic photos */
+.graphic-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .graphic-grid {
   display: grid;
   grid-template-areas:
@@ -417,6 +441,10 @@ main {
 .integrations-section {
   color: var(--text-light);
   background-color: var(--primary-accent);
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .integrations-section .primary-button {
@@ -454,6 +482,12 @@ main {
 }
 
 /* WHY SWIPE SECTION */
+.why-swipe-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .why-swipe-section .card-container {
   display: flex;
   margin: var(--spacing-lg) 0;
@@ -468,4 +502,51 @@ main {
 
 .why-swipe-section .secondary-text {
   color: var(--text-dark);
+}
+
+/* GLOBAL SECTION */
+.global-section {
+  background-color: var(--primary-accent);
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  color: var(--text-light);
+
+  position: relative;
+  padding: calc((var(--spacing-xl)) * 3) 0;
+}
+
+.global-section a {
+  color: var(--blue-1);
+}
+
+.global-section a:hover {
+  color: var(--text-light);
+}
+
+.global-section .card-container {
+  display: flex;
+  margin: calc((var(--spacing-xl)) * 2) 0;
+}
+
+.global-section .card-container .card {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0 var(--spacing-sm) 0 0;
+  margin: 0 var(--spacing-md) 0 0;
+}
+
+.global-section .card-container .card h3 {
+  border-left: 2px solid var(--blue-1);
+  padding: 0 0 0 var(--spacing-sm);
+  line-height: 28px;
+}
+
+#globe {
+  max-width: 844px;
+  opacity: 25%;
+  position: absolute;
+  top: 10%;
 }
