@@ -970,4 +970,26 @@ body {
   .getting-started-section .col-left {
     padding: 0;
   }
+
+  /* FOOTER */
+  .footer .section-container {
+    flex-wrap: wrap;
+  }
+
+  .footer .col {
+    width: 50%;
+    margin: var(--spacing-md) 0;
+  }
+
+  .footer .col a {
+    font-size: 14px;
+  }
+
+  #footer-logo {
+    width: 70px;
+  }
+
+  .icon-link img {
+    width: 18px;
+  }
 }
