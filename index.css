@@ -946,6 +946,14 @@ body {
   }
 
   /* INTEGRATIONS SECTION */
+  .integrations-section {
+    padding: var(--spacing-xl) 0 var(--spacing-lg) 0;
+  }
+
+  .integrations-section::before {
+    height: 950px;
+  }
+
   .integrations-section .card-container {
     flex-direction: column;
   }
@@ -955,6 +963,10 @@ body {
   }
 
   /* WHY SWIPE SECTION */
+  .why-swipe-section {
+    padding: var(--spacing-xl) 0;
+  }
+
   .why-swipe-section .card-container {
     flex-wrap: wrap;
   }
@@ -1037,16 +1049,32 @@ body {
   }
 
   /*  UNIFIED PLATFORM */
+  .unified-platform-section {
+    padding: var(--spacing-md) 0;
+  }
+
   .unified-platform-section h2 {
     width: 100%;
   }
 
   /* INTEGRATIONS SECTION */
+  .integrations-section {
+    padding: 0 0 var(--spacing-lg) 0;
+  }
+
+  .integrations-section::before {
+    height: 865px;
+  }
+
   .integrations-section .col-right {
     display: none;
   }
 
   /* WHY SWIPE SECTION */
+  .why-swipe-section {
+    padding: var(--spacing-xl) 0 var(--spacing-lg) 0;
+  }
+
   .why-swipe-section .card-container .card {
     width: 100%;
     margin: var(--spacing-sm) 0;
@@ -1057,9 +1085,17 @@ body {
   }
 
   /* GLOBAL SCALE SECTION */
+  .global-section {
+    padding: var(--spacing-xl) 0 0 0;
+  }
+
+  .global-section .card-container {
+    margin: var(--spacing-md) 0;
+  }
+
   .global-section .card-container .card {
     width: 100%;
-    margin: var(--spacing-sm) 0;
+    margin: var(--spacing-sm) 0 var(--spacing-lg) 0;
   }
 
   #globe {
@@ -1067,9 +1103,14 @@ body {
   }
 
   /* VIRTUAL EVENTS SECTION */
+  .virtual-events-section {
+    padding: 0;
+  }
+
   .virtual-events-section .swipe-sessions-card {
     width: 100%;
-    margin: var(--spacing-lg) 0;
+    height: 400px;
+    margin: var(--spacing-sm) 0 var(--spacing-lg) 0;
   }
 
   .virtual-events-section .swipe-sessions-card .secondary-text {
@@ -1089,6 +1130,10 @@ body {
   }
 
   /* GETTING STARTED SECTION */
+  .getting-started-section {
+    padding: var(--spacing-md) 0;
+  }
+
   .getting-started-section .col-right .card .icon {
     height: 35px;
   }
