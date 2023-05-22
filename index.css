@@ -874,6 +874,20 @@ body {
     width: 50%;
     margin: var(--spacing-md) 0;
   }
+
+  /* GETTING STARTED SECTION */
+  .getting-started-section .two-column {
+    align-items: center;
+  }
+
+  .getting-started-section .col-right {
+    flex-wrap: wrap;
+  }
+
+  .getting-started-section .col-right .card {
+    width: 100%;
+    margin: var(--spacing-md) 0;
+  }
 }
 
 /* MOBILE SIZE */
@@ -946,5 +960,14 @@ body {
 
   #sessions-logo {
     width: 300px;
+  }
+
+  /* GETTING STARTED SECTION */
+  .getting-started-section .col-right .card .icon {
+    height: 35px;
+  }
+
+  .getting-started-section .col-left {
+    padding: 0;
   }
 }
