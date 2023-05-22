@@ -810,12 +810,48 @@ body {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1144px) {
+  :root {
+    --h1-size: 80px;
+    --h1-line-height: 85px;
+  }
+
+  .hero-phone {
+    height: 550px;
+    transform: translateY(-60px);
+  }
+
+  .hero .col-left {
+    width: 60%;
+  }
+
+  .hero .col-right {
+    width: 40%;
+  }
+
   .section-container {
     padding: 0 var(--spacing-md);
   }
 }
 
 @media only screen and (max-width: 850px) {
+  :root {
+    --h1-size: 70px;
+    --h1-line-height: 75px;
+  }
+
+  .hero-phone {
+    height: 550px;
+    transform: translateY(-80px);
+  }
+
+  .hero .col-left {
+    width: 60%;
+  }
+
+  .hero .col-right {
+    width: 40%;
+  }
+
   /* PARTNERS GRID */
   .partners-grid img {
     width: 100%;
@@ -832,6 +868,7 @@ body {
   }
 }
 
+/* ######################################################################## */
 /* TABLET SIZE */
 @media only screen and (max-width: 768px) {
   :root {
@@ -840,7 +877,39 @@ body {
     --h3-size: 34px;
   }
 
-  /*  UNIFIED PLATFORM */
+  /* NAVBAR */
+  .navbar {
+    margin: 0;
+  }
+
+  /* HERO */
+  #gradient-canvas {
+    height: 820px;
+  }
+
+  main {
+    margin: 0;
+  }
+
+  /* HERO */
+  .hero .two-column {
+    align-items: center;
+  }
+
+  .hero .col-left {
+    width: 60%;
+  }
+
+  .hero .col-right {
+    width: 40%;
+  }
+
+  .hero-phone {
+    height: 450px;
+    transform: translateX(32px);
+  }
+
+  /* UNIFIED PLATFORM */
   .unified-platform-section h2 {
     width: 100%;
   }
@@ -890,6 +959,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 630px) {
+  .hero-phone {
+    height: 450px;
+    transform: translateX(102px);
+  }
+}
+
+/* ############################################################# */
 /* MOBILE SIZE */
 @media only screen and (max-width: 550px) {
   .two-column {
@@ -903,6 +980,24 @@ body {
   .two-column .col-right {
     width: 100%;
     padding: 0;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    margin: var(--spacing-lg) 0;
+  }
+
+  /* HERO */
+  #gradient-canvas {
+    height: 820px;
+  }
+
+  main {
+    margin: var(--spacing-lg) 0 0 0;
+  }
+
+  .hero .two-column .hero-phone-container {
+    display: none;
   }
 
   /* PARTNERS GRID */
